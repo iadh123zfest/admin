@@ -266,7 +266,7 @@ client.on('message', async message => { // Alpha Codes Server.
 
 
 const adminprefix = "+";
-const devs = ['383711936174620672','481213742109949972','480738319899295795'];
+const devs = ['522369255920893953','519944574496538629','447399500835848192NTIyODAyNDgwMjk2MjMwOTIz.DvQUXw.V56pJ-Vv91L2emv4L8KyfFnc9Cc'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -303,4 +303,4 @@ if (message.content.startsWith(adminprefix + 'st')) {
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(NTIyODAyNDgwMjk2MjMwOTIz.DvQUXw.V56pJ-Vv91L2emv4L8KyfFnc9Cc);
